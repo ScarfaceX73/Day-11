@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+    <link rel="stylesheet" href="allinputelements.css">
+</head>
+<body>
+    
+    <form>
+      
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="User"> 
+        
+        <span>
+        
+            <label for="email">Email</label>
+            <input type="email" name="email" id="mail" placeholder="abc@gmail.com"> 
+        </div>
+        </span>  
+        <br>
+        <br>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" placeholder="25"  min="1" max="100">
+        
+        <span>
+            
+                <label for="date">Birthdate</label>
+                <input type="date" name="date" id="date" placeholder="24-02-1996">
+            </div> 
+        </span>
+        <br>
+        <br>
+        Gender
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+            <span>
+        
+            
+                <label for="female">female</label>
+                <input type="radio" name="gender" id="female" value="female">
+            </span>
+            </div>
+        <br>
+        <br>
+                
+            <div>
+                <label for="Course">Course</label>
+                <select name="course" id="course">
+                  <option value="FullStackDeveloper">FullStackDeveloper</option>
+                  <option value="DataScience">DataScience</option>
+                  </select>
+                  
+                <span> 
+            
+                <label for="bio">Bio</label>
+                <textarea id="bio" name="bio">Tell us about Yourself</textarea>
+            </div>
+           </span>
+        
+           <br>
+           <br>
+            <div>
+                Subject Covered
+                <div>
+                    <label for="html">HTML</label>
+                    <input type="checkbox" name="html" id="html">
+                </div>
+                <div>
+                    <label for="css">CSS</label>
+                    <input type="checkbox" name="css" id="css">
+                </div>
+            </div>
+        
+            <div>
+                <label for="file">File</label>
+                <input id="file" type="file" name="file">
+            </div>
+            <br>
+            <br>
+        
+        <div>
+                <label for="url">URL</label>
+                <input type="url" name="url" id="url">
+            
+        <span>
+        
+        
+            <label for="password">Password</label>
+            <input type="password" name="password"> 
+        </div>
+        </span>
+        <br><br>
+        <div>
+            <label for="color">Color</label>
+            <input type="color" name="color">
+        </div>
+        <br>
+        <br>
+         
+          <div>
+           <label for="month">Month</label>
+            <input type="month" name="month">
+          
+        </span>
+            
+             <label for="search">Search</label>
+             <input type="search" name="search">
+            </span>
+           </div>
+        
+              <input type="button" value="Click" onclick="alert('Hi')">
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+    <link rel="stylesheet" href="formelements.css">
+</head>
+<body>
+    
+    <form>
+      
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" value="User"> 
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="mail" value="abc@gmail.com"> 
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" value="25"  min="1" max="100">
+            <div>
+                <label for="date">Birthdate</label>
+                <input type="date" name="date" id="date" value="24-02-1996">
+            </div> 
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+            </div>
+            <div>
+                <label for="female">female</label>
+                <input type="radio" name="gender" id="female" value="female">
+            </div>
+            <div>
+                <label for="Course">Course</label>
+                <select name="course" id="course">
+                  <option value="FullStackDeveloper">FullStackDeveloper</option>
+                  <option value="DataScience">DataScience</option>
+
+                </select>
+            </div>
+            <div>
+                <label for="bio">Bio</label>
+                <textarea id="bio" name="bio">Tell us about Yourself</textarea>
+            </div>
+
+            <div>
+                Subject Covered
+                <div>
+                    <label for="html">HTML</label>
+                    <input type="checkbox" name="html" id="html">
+                </div>
+                <div>
+                    <label for="css">CSS</label>
+                    <input type="checkbox" name="css" id="css">
+                </div>
+            </div>
+            <div>
+                <label for="file">File</label>
+                <input id="file" type="file" name="file">
+            </div>
+            <div>
+                <label for="url">URL</label>
+                <input type="url" name="url" id="url">
+            </div>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password"> 
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

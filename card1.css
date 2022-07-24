@@ -1,0 +1,60 @@
+.main {
+  width: 450px;
+  height: 380px;
+  display: inline;
+  background: white;
+  padding: 10px;
+}
+
+h3 {
+  background: red;
+  color: white;
+}
+
+.new1 {
+  display: inline;
+}
+
+.new2 {
+  display: inline;
+}
+
+.text-line {
+  background-color: transparent;
+  color: black;
+  outline: none;
+  outline-style: none;
+  outline-offset: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid black 1px;
+  padding: 3px 15px;
+  width: 75px;
+  margin-left: 10px;
+}
+.name1 {
+  padding: 0px 50px 10px 10px;
+  font-size: smaller;
+  text-align: left;
+}
+
+.name2 {
+  padding: 10px;
+  font-size: smaller;
+  text-align: left;
+}
+
+.name3 {
+  padding: 0px 83px 10px 10px;
+  font-size: smaller;
+  text-align: left;
+}
+
+body {
+  background: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

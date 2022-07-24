@@ -1,0 +1,21 @@
+form {
+  background: fixed;
+  text-align: left;
+  border: 2px solid black;
+  width: 700px;
+  height: 550px;
+  padding: 35px;
+  margin: 25px;
+}
+
+span {
+  display: inline;
+}
+
+body {
+  background-color: rgb(255, 253, 253);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
